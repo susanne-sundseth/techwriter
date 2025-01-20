@@ -65,3 +65,15 @@ h2 {
 #myBtn:hover {
   background-color: #6C757D;    
 } 
+
+.pdf-body {
+  overflow: hidden; 
+}
+
+.pdf-container {
+  flex: 1 1 0;
+}
+
+.view-pdf {
+  height:99vh
+}
