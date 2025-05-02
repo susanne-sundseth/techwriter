@@ -1,2 +1,3 @@
 # techwriter
-site for susanne-sundseth.com
+
+My professional website
