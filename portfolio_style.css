@@ -1,0 +1,79 @@
+.navbar {
+  background-color: #506E35;   
+}
+                  
+.nav-pills .nav-link.active {  
+  background-color: #506E35; 
+  color: white;
+  margin-right: 10px;
+}
+
+.nav-pills .nav-link.active:hover {
+  background-color: white;
+  color: #506E35;      
+} 
+      
+#jumbotron {
+  display: grid;
+  gap: 10px;
+  grid-template-rows: auto;                    
+}
+
+#jumbotron-background {
+  margin-top: 5%;       
+}
+
+h1 {
+  font-variant-caps: small-caps;
+  font-size: 300%;
+  letter-spacing: 8px;         
+}
+
+h2 {
+  font-variant-caps: small-caps;
+  letter-spacing: 3px;
+}
+
+.attribution {
+  text-align: end;
+  font-size: 70%;
+  color: #6C757D;
+}
+
+.btn {
+  background-color: #506E35;
+  color: white;
+  border: 0;
+}
+       
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 15px;
+  z-index: 99;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  background-color: #506E35;
+  color: white;
+  cursor: pointer;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #6C757D;    
+} 
+
+.pdf-body {
+  overflow: hidden; 
+}
+
+.pdf-container {
+  flex: 1 1 0;
+}
+
+.view-pdf {
+  height:99vh
+}
